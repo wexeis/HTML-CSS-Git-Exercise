@@ -1,1 +1,12 @@
 /* Add your own CSS code below */
+@media (min-width: 768px) {
+  ul {
+    column-count: 2;
+  }
+}
+
+@media (min-width: 1200px) {
+  ul {
+    column-count: 3;
+  }
+}
