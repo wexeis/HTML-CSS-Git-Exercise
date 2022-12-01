@@ -1,1 +1,25 @@
 /* Add your CSS code below */
+a {
+  text-decoration: none;
+  color: red;
+
+  font-weight: bold;
+}
+.time-size {
+  font-size: 0.9rem;
+}
+
+.border {
+  border: solid;
+  border-color: blue;
+  border-right-width: 0;
+  border-top-width: 0;
+  border-bottom-width: 0;
+}
+
+.opacity {
+  opacity: 0.1;
+}
+p {
+  line-height: 3em;
+}
