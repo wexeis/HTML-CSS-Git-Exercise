@@ -1,1 +1,29 @@
 /* Add your own CSS code below */
+footer span {
+  color: #c85308;
+}
+@media (min-width: 992px) {
+  .hero__title {
+    font-size: 80px;
+  }
+}
+
+li.main-nav__list-item {
+  display: flex;
+  flex-direction: row;
+  align-items: ;
+}
+
+@media (min-width: 767px) {
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+}
+article p {
+  max-width: 50em;
+  line-height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
