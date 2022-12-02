@@ -2,41 +2,34 @@
   display: flex;
 }
 .countries--first {
-  flex-direction: row-reverse;
+  flex-direction: row;
   align-items: flex-end;
+  justify-content: right;
 }
 
-.countries--first .country--brazil {
-  order: 1;
-}
-.countries--first .country--croatia {
-  order: 2;
-}
-.countries--first .country--ethiopia {
-  order: 3;
-}
-.countries--first .country--laos {
-  order: 4;
-}
-.countries--first .country--uganda {
-  order: 5;
-}
 .countries--second {
   flex-direction: row-reverse;
   align-items: flex-end;
+  justify-content: center;
 }
+
 .countries--third {
   flex-direction: row;
   align-items: flex-start;
+  justify-content: center;
 }
 
 .countries--third .country--brazil {
   align-self: flex-end;
+  justify-self: flex-start;
 }
+
 .countries--fourth {
-  display: flex;
   flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
 }
+
 .countries--fourth .country--brazil {
   align-self: flex-end;
 }
@@ -60,7 +53,7 @@
 }
 .countries--fifth .country--brazil {
   align-self: flex-end;
-  jorder: 5;
+  order: 5;
 }
 .countries--fifth .country--croatia {
   align-self: flex-end;
