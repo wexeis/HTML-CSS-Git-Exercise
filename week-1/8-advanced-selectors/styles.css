@@ -7,6 +7,6 @@ div.site-footer p {
   font-size: 12px;
   text-align: center;
 }
-div:nth-of-type(9) {
-  border: solid orange;
+.message--unread {
+  box-shadow: 4px 4px 0 #dba944;
 }
